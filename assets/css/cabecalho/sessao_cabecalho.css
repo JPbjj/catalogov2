@@ -1,0 +1,11 @@
+.sessao_cabecalho{
+     width: auto;
+     height: 260px;
+     background-color: var(--branco);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-bottom: 10px;
+     border-radius: 0.5rem;
+}

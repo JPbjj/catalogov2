@@ -1,0 +1,8 @@
+.botao_pesquisar{
+     padding: 0.5em 1.5em;
+     margin-left: 1em;
+     color: #ffffff;
+     border-radius: 5px;
+     margin-top: 1em;
+     background-color: var(--roxo);
+}

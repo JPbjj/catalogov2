@@ -1,0 +1,19 @@
+.botoes_container{
+     padding: 0.5em;
+     display: flex;
+     justify-content: center;
+}
+
+.botao_valor{
+     border: 2px solid var(--roxo);
+     padding: 1em 2.2em;
+     border-radius: 3em;
+     margin-left: 0.5em;
+     color: var(--roxo);
+     cursor: pointer;
+}
+
+.ativo{
+     background-color: var(--roxo);
+     color: var(--branco);
+}

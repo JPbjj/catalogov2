@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Catalogo Produtos</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="cores.css" />
+		<link rel="stylesheet" href="assets/css/cabecalho/sessao_cabecalho.css" />
+		<link rel="stylesheet" href="assets/css/cabecalho/container_logo.css" />
+		<link rel="stylesheet" href="assets/css/cabecalho/logo.css" />
+		<link rel="stylesheet" href="assets/css/cabecalho/social.css" />
+		<link rel="stylesheet" href="assets/css/cabecalho/descricao_social.css" />
+		<link
+			rel="stylesheet"
+			href="assets/css/principal/container_principal.css"
+		/>
+		<link rel="stylesheet" href="assets/css/principal/pesquisa_container.css" />
+		<link rel="stylesheet" href="assets/css/principal/botao_pesquisar.css" />
+		<link rel="stylesheet" href="assets/css/principal/botoes_container.css" />
+		<link rel="stylesheet" href="assets/css/principal/card.css" />
+		<link
+			rel="stylesheet"
+			href="assets/css/principal/container_descricao-produto.css"
+		/>
+		<link rel="stylesheet" href="assets/css/principal/nome_produto.css" />
+		<link rel="stylesheet" href="assets/css/principal/preco_produto.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="sessao_cabecalho">
+			<div class="container_logo">
+				<img class="logo" src="assets/images/logo.png" alt="" />
+			</div>
+			<div class="social">
+				<div class="descricao_social"><p>CONTATO VIA</p></div>
+				<a
+					class="instagram"
+					href="https://instagram.com/levin_jiujitsu_kennel?igshid=NmNmNjAwNzg="
+					target="blank"
+					><ion-icon name="logo-instagram"></ion-icon
+				></a>
+				<a
+					class="whatsapp"
+					href="https://wa.me/5512991080428? text=Olá gostaria de encomendar produtos!"
+					target="blank"
+					><ion-icon name="logo-whatsapp"></ion-icon
+				></a>
+			</div>
+		</header>
+		<main class="principal">
+			<div class="container_principal">
+				<div class="pesquisa_container">
+					<input
+						type="search"
+						id="input-pesquisa"
+						placeholder="Procure seu produto aqui"
+					/>
+					<button class="botao_pesquisar" id="idbotaopesquisa">
+						Pesquisar
+					</button>
+				</div>
+				<div class="botoes_container">
+					<button class="botao_valor" onclick="filtrarProduto('todos')">
+						Todos</button
+					><button class="botao_valor" onclick="filtrarProduto('Whey')">
+						Whey</button
+					><button class="botao_valor" onclick="filtrarProduto('Termogenicos')">
+						Termogenicos</button
+					><button class="botao_valor" onclick="filtrarProduto('Aminoacidos')">
+						Aminoacidos</button
+					><button class="botao_valor" onclick="filtrarProduto('Diversos')">
+						Diversos
+					</button>
+				</div>
+				<div id="produtos"></div>
+			</div>
+		</main>
+		<footer></footer>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>

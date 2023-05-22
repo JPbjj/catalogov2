@@ -1,0 +1,21 @@
+.card{
+     background-color: var(--branco);
+     max-width: 18em;
+     margin-top: 2em;
+     padding: 1em;
+     border-radius: 5px;
+     box-shadow: 1em 2em 2.5em rgba(10, 10, 10, 0.329);
+}
+
+.image-container{
+     text-align: center;
+}
+
+img{
+     max-width: 100%;
+     object-fit: contain;
+     height: 15em;
+}
+.hide{
+     display: none;
+}
