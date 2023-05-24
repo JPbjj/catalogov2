@@ -1,0 +1,221 @@
+@media (max-width:768px){
+    html, body {
+        overflow-x: hidden;
+    }
+    .container_logo{
+        width: 230px;
+        height: 230px;
+    }
+    .logo{
+        width: inherit;
+        height: inherit;
+    }
+   .descricao_social p {
+    font-size: 24px;
+   }
+   .md.hydrated{
+    width: 30px;
+    height: 30px;
+   }
+   .pesquisa_container{
+    width: 500px;
+    text-align: center;
+   }
+   #input-pesquisa{
+    width: 25%;
+    padding: 1em 1em ;
+    text-align: center;
+    font-size: 15px;
+   }
+   .botao_pesquisar{
+    width: 30%;
+    font-size: 17px;
+   }
+   .container_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .botoes_container{
+    flex-direction: column;
+    width: 550px;
+   }
+   .botao_valor{
+    margin-bottom: 15px;
+    width: 550px;
+    font-size: 19px;
+    padding: 0.7em 1.5em;
+   }
+   #produtos{
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 2em
+   }
+}
+@media(max-width:485px){
+    html, body {
+        overflow-x: hidden;
+    }
+    .container_logo{
+        width: 230px;
+        height: 230px;
+    }
+    .logo{
+        width: inherit;
+        height: inherit;
+    }
+   .descricao_social p {
+    font-size: 24px;
+   }
+   .md.hydrated{
+    width: 30px;
+    height: 30px;
+   }
+   .pesquisa_container{
+    width: 500px;
+    text-align: center;
+   }
+   #input-pesquisa{
+    width: 25%;
+    padding: 1em 1em ;
+    text-align: center;
+    font-size: 15px;
+   }
+   .botao_pesquisar{
+    width: 30%;
+    font-size: 17px;
+   }
+   .container_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .botoes_container{
+    flex-direction: column;
+    width: 350px;
+   }
+   .botao_valor{
+    margin-bottom: 15px;
+    width: 350px;
+    font-size: 19px;
+    padding: 0.7em 1.5em;
+   }
+   #produtos{
+    grid-template-columns: repeat(2, 46%);
+    grid-column-gap: 2em
+   }
+   .nome_produto{
+    font-size: 20px;
+   }
+}
+@media(max-width:375px){
+    html, body {
+        overflow-x: hidden;
+    }
+    .container_logo{
+        width: 230px;
+        height: 230px;
+    }
+    .logo{
+        width: inherit;
+        height: inherit;
+    }
+   .descricao_social p {
+    font-size: 24px;
+   }
+   .md.hydrated{
+    width: 30px;
+    height: 30px;
+   }
+   .pesquisa_container{
+    width: 500px;
+    text-align: center;
+   }
+   #input-pesquisa{
+    width: 25%;
+    padding: 1em 1em ;
+    text-align: center;
+    font-size: 15px;
+   }
+   .botao_pesquisar{
+    width: 30%;
+    font-size: 17px;
+   }
+   .container_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .botoes_container{
+    flex-direction: column;
+    width: 250px;
+   }
+   .botao_valor{
+    margin-bottom: 15px;
+    width: 250px;
+    font-size: 15px;
+    padding: 0.7em 1.5em;
+   }
+   #produtos{
+    grid-template-columns: 1fr;
+    grid-column-gap: 2em
+   }
+   .nome_produto{
+    font-size: 20px;
+   }
+}
+@media(max-width:320px){
+    html, body {
+        overflow-x: hidden;
+    }
+    .container_logo{
+        width: 230px;
+        height: 230px;
+    }
+    .logo{
+        width: inherit;
+        height: inherit;
+    }
+   .descricao_social p {
+    font-size: 24px;
+   }
+   .md.hydrated{
+    width: 30px;
+    height: 30px;
+   }
+   .pesquisa_container{
+    width: 500px;
+    text-align: center;
+   }
+   #input-pesquisa{
+    width: 25%;
+    padding: 1em 1em ;
+    text-align: center;
+    font-size: 15px;
+   }
+   .botao_pesquisar{
+    width: 30%;
+    font-size: 17px;
+   }
+   .container_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .botoes_container{
+    flex-direction: column;
+    width: 250px;
+   }
+   .botao_valor{
+    margin-bottom: 15px;
+    width: 250px;
+    font-size: 15px;
+    padding: 0.7em 1.5em;
+   }
+   #produtos{
+    grid-template-columns: 1fr;
+    grid-column-gap: 2em
+   }
+   .nome_produto{
+    font-size: 20px;
+   }
+}
