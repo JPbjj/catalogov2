@@ -214,7 +214,7 @@ let produtos = {
 			produtoNome:
 				"TRIBULUS TERRESTRIS STAR LABS MACA PERUANA 2G / 90% SAPONINS",
 			categoria: "Diversos",
-			preco: "75",
+			preco: "80",
 			image: "assets/images/tribulus.png",
 		},
 		{
