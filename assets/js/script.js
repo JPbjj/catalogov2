@@ -90,18 +90,7 @@ let produtos = {
 			preco: "75",
 			image: "assets/images/melatoninakn.png",
 		},
-		{
-			produtoNome: "NITRO WHEY 3W COCO/BAUNILHA 900G",
-			categoria: "Whey",
-			preco: "95",
-			image: "assets/images/nitrowhey3w.png",
-		},
-		{
-			produtoNome: "PASTA DE AMENDOIM VITAPOWER AIR INTEGRAL SUPER CREAMY 80G",
-			categoria: "Diversos",
-			preco: "15",
-			image: "assets/images/pastaamendoin80g.png",
-		},
+
 		{
 			produtoNome: "VITAPOWER PASTA DE AMENDOIM INTEGRAL PRESS CREAM 1KG",
 			categoria: "Diversos",
@@ -195,7 +184,7 @@ let produtos = {
 		{
 			produtoNome: "BODY ACTION THERMO ABDOMEN CAFEÍNA 240MG",
 			categoria: "Termogenicos",
-			preco: "220",
+			preco: "50",
 			image: "assets/images/thermoabdomem.png",
 		},
 		{
@@ -212,10 +201,10 @@ let produtos = {
 		},
 		{
 			produtoNome:
-				"TRIBULUS TERRESTRIS STAR LABS MACA PERUANA 2G / 90% SAPONINS",
+				"TRIBULUS TERRESTRIS PRIME LABS MACA PERUANA 2G / 90% SAPONINS",
 			categoria: "Diversos",
 			preco: "80",
-			image: "assets/images/tribulus.png",
+			image: "assets/images/tribulusprimelab.png",
 		},
 		{
 			produtoNome: "WHEY PROTEIN BLACK SKULL 'CAVEIRA PRETA' 900G",
@@ -261,10 +250,28 @@ let produtos = {
 			image: "assets/images/wheygourmetcoco.png",
 		},
 		{
-			produtoNome: "WWHEY GOURMET ISOLATE 900G VANILLA ICE CREAM",
+			produtoNome: "WHEY GOURMET ISOLATE 900G VANILLA ICE CREAM",
 			categoria: "Whey",
 			preco: "250",
 			image: "assets/images/wheygourmetvanilla.png",
+		},
+		{
+			produtoNome: "MASS TITANIUM 17500 3KG",
+			categoria: "Diversos",
+			preco: "105",
+			image: "assets/images/masstitanium.png",
+		},
+		{
+			produtoNome: "HARD MASS BODY ACTION 3KG",
+			categoria: "Diversos",
+			preco: "90",
+			image: "assets/images/hardmassbody.png",
+		},
+		{
+			produtoNome: "TESTODROL MASS BIOTECH 3KG",
+			categoria: "Diversos",
+			preco: "90",
+			image: "assets/images/testodrol.png",
 		},
 	],
 };
