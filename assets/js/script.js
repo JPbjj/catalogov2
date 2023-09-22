@@ -297,10 +297,10 @@ for (let i of produtos.data) {
 	nome.innerText = i.produtoNome.toUpperCase();
 	container.appendChild(nome);
 	//preço
-	let preco = document.createElement("h6");
+	/*let preco = document.createElement("h6");
 	preco.classList.add("preco_produto");
 	preco.innerText = "R$" + i.preco + ",00";
-	container.appendChild(preco);
+	container.appendChild(preco);*/
 
 	card.appendChild(container);
 	document.getElementById("produtos").appendChild(card);
